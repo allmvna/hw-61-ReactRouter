@@ -2,9 +2,9 @@ import React from 'react';
 
 const musicData = [
     {
-        id: 1,
-        src: "https://the-flow.ru/uploads/images/resize/830x0/adaptiveResize/01/34/59/02/42/beaa57c40cd7.jpeg",
-        title: "MiyaGi и Эндшпиль - Minor",
+        id: 3,
+        src: "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_webp/642d4a156210003.6362dfc945145.jpg",
+        title: "MiyaGi и Эндшпиль - Silhouette",
         interval: 10000
     },
     {
@@ -14,9 +14,9 @@ const musicData = [
         interval: 2000
     },
     {
-        id: 3,
-        src: "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_webp/642d4a156210003.6362dfc945145.jpg",
-        title: "MiyaGi и Эндшпиль - Silhouette",
+        id: 1,
+        src: "https://the-flow.ru/uploads/images/resize/830x0/adaptiveResize/01/34/59/02/42/beaa57c40cd7.jpeg",
+        title: "MiyaGi и Эндшпиль - Minor",
         interval: 10000
     },
 ];
@@ -25,6 +25,7 @@ const Music = () => {
     return (
         <div className="container p-2">
             <h2 className='my-3'>Любимые песни</h2>
+            <hr/>
             <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     {musicData.map((music, index) => (

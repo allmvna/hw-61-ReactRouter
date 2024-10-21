@@ -28,6 +28,7 @@ const Books = () => {
     return (
         <div className="container p-2">
             <h2 className='my-3'>Любимые книги</h2>
+            <hr/>
             <div className="row">
                 {booksData.map((book, index) => (
                     <div className="col-md-3 mb-4" key={index}>
