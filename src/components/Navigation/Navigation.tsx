@@ -11,13 +11,13 @@ const Navigation = () => {
                     <div className="ms-auto">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="/">♥ фильмы</NavLink>
+                                <NavLink className="nav-link" to="/">♥ фильмы </NavLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink className="nav-link" to="/books">♥ книги</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="/music">♥ отрывки из песен</NavLink>
+                                <NavLink className="nav-link" to="/music">♥ песни</NavLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink className="nav-link" to="/portfolio">портфолио</NavLink>
